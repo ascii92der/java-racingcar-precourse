@@ -31,4 +31,8 @@ public class Cars {
         }
         return sb.toString();
     }
+
+    public List<Car> carList() {
+        return carList;
+    }
 }
