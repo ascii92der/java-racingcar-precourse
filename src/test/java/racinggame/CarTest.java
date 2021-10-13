@@ -22,6 +22,13 @@ class CarTest {
     @Test
     void carMoveTest() {
         car.move(3);
-        assertThat(car.currentPosition()).isEqualTo(0);
+        assertThat(car.currentPosition()).isZero();
+    }
+
+    @Test
+    void carMovePrintTest() {
+        car.move(4);
+        car.move(4);
+        assertThat(car.printCarDistance()).isEqualTo("--");
     }
 }

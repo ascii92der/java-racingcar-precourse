@@ -21,4 +21,12 @@ public class Car {
     public int currentPosition() {
         return carPosition.currentPosition();
     }
+
+    public String printCarDistance() {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < currentPosition(); i++) {
+            sb.append("-");
+        }
+        return sb.toString();
+    }
 }
