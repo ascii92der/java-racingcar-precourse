@@ -27,7 +27,7 @@ public class Cars {
     public String printCurrentRace() {
         StringBuilder sb = new StringBuilder();
         for (Car car : carList) {
-            sb.append(car.name()).append(":").append(car.printCarDistance());
+            sb.append(car.name()).append(":").append(car.printCarDistance()).append(System.lineSeparator());
         }
         return sb.toString();
     }
