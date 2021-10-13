@@ -17,4 +17,8 @@ public class CarName {
     boolean validName(String name) {
         return name.length() >= MIN_NAME_LENGTH && name.length() <= MAX_NAME_LENGTH;
     }
+
+    public String name() {
+        return name;
+    }
 }
