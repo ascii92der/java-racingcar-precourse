@@ -7,7 +7,7 @@
 * [과제 제출 방법](https://github.com/next-step/nextstep-docs/tree/master/precourse)
 
 ## 기능 요구사항
-- [ ] 자동차 이름 유효성(1-5자 이하)
+- [x] 자동차 이름 유효성(1-5자 이하)
 - [ ] 주어진 횟수 입력
 - [ ] 자동차 전진 기능
 - [ ] 자동차 전진 출력
