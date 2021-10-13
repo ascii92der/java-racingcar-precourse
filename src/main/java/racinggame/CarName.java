@@ -1,4 +1,4 @@
-package nextstep;
+package racinggame;
 
 public class CarName {
     private static final int MIN_NAME_LENGTH = 1;
